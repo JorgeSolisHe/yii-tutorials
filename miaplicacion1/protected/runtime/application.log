@@ -1,0 +1,166 @@
+2012/02/01 13:18:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "saludo/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/miaplicacion1/index.php?r=saludo/index
+---
+2012/02/01 13:20:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "saludo/contact".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/contact')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/miaplicacion1/index.php?r=saludo/contact
+---
+2012/02/01 13:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "saludo/".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/miaplicacion1/index.php?r=saludo/
+---
+2012/02/01 18:18:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "saludo/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/miaplicacion1/index.php?r=saludo/index
+---
+2012/02/01 18:21:33 [error] [exception.CException] exception 'CException' with message 'SaludoController cannot find the requested view "index".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#1 C:\wamp\www\miaplicacion1\protected\controllers\SaludoController.php(7): CController->render('index', Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SaludoController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('index')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/miaplicacion1/index.php?r=saludo/index
+---
+2012/02/01 19:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page.html".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('page.html')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('page.html')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page.html')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/miaplicacion1/site/page.html?view=about
+HTTP_REFERER=http://localhost/miaplicacion1/saludo/index.html
+---
+2012/02/01 19:41:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page.jsp".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('page.jsp')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('page.jsp')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page.jsp')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/miaplicacion1/site/page.jsp?view=about
+HTTP_REFERER=http://localhost/miaplicacion1/site/login.jsp
+---
+2012/02/01 19:41:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page.asp".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('page.asp')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('page.asp')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page.asp')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/miaplicacion1/site/page.asp?view=about
+HTTP_REFERER=http://localhost/miaplicacion1/site/login.asp
+---
+2012/02/01 20:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page.html".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('page.html')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('page.html')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page.html')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/miaplicacion1/site/page.html?view=about
+HTTP_REFERER=http://localhost/miaplicacion1/site/index.html
+---
+2012/02/01 20:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.jsp".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('index.jsp')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('index.jsp')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/index.jsp')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/miaplicacion1/site/index.jsp
+HTTP_REFERER=http://localhost/miaplicacion1/site/login.jsp
+---
+2012/02/03 12:36:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "saludos/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludos/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/miaplicacion1/saludos/index.asp
+HTTP_REFERER=http://localhost/miaplicacion1/saludo/index
+---
+2012/02/03 12:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "saludos/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludos/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/miaplicacion1/saludos/index.asp
+HTTP_REFERER=http://localhost/miaplicacion1/site/page.asp?view=about
+---
+2012/02/03 12:37:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "saludos/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludos/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/miaplicacion1/saludos/index.asp
+HTTP_REFERER=http://localhost/miaplicacion1/site/index.asp
+---
+2012/02/03 12:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "saludos/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludos/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/miaplicacion1/saludos/index.asp
+HTTP_REFERER=http://localhost/miaplicacion1/site/login.asp
+---
+2012/02/03 12:43:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.asp".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('index.asp')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('index.asp')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/index.asp')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\miaplicacion1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/miaplicacion1/site/index.asp
+HTTP_REFERER=http://localhost/miaplicacion1/saludo/index.asp
+---
+2012/02/03 12:54:11 [error] [php] Undefined variable: layout (C:\wamp\www\miaplicacion1\protected\views\saludo\index.php:2)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SaludoController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SaludoController->renderPartial()
+#2 C:\wamp\www\miaplicacion1\protected\controllers\SaludoController.php(7): SaludoController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SaludoController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SaludoController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SaludoController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SaludoController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\miaplicacion1\index.php(13): CWebApplication->run()
+REQUEST_URI=/miaplicacion1/saludo/index
+in C:\wamp\www\miaplicacion1\protected\views\saludo\index.php (2)
+in C:\wamp\www\miaplicacion1\protected\controllers\SaludoController.php (7)
+in C:\wamp\www\miaplicacion1\index.php (13)
